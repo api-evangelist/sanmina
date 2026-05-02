@@ -20,6 +20,7 @@ tags:
   - Enterprise
 created: '2026-05-02'
 modified: '2026-05-02'
+x-profiled: '2026-05'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/sanmina/refs/heads/main/apis.yml
 specificationVersion: '0.19'
@@ -63,6 +64,10 @@ common:
     url: https://www.sanmina.com/insights/case-studies/
   - type: Press Releases
     url: https://www.sanmina.com/category/press-releases/
+  - type: Vocabulary
+    url: vocabulary/sanmina-vocabulary.yml
+  - type: JSONLD
+    url: json-ld/sanmina-context.jsonld
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
