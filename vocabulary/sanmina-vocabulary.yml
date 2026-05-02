@@ -1,0 +1,109 @@
+vocabulary:
+  provider: Sanmina
+  description: >-
+    Domain vocabulary for Sanmina's manufacturing, contract manufacturing,
+    and 42Q MES platform covering manufacturing execution, supply chain,
+    and industrial IoT concepts.
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  terms:
+    - term: MES
+      definition: >-
+        Manufacturing Execution System — software that tracks and controls
+        the transformation of raw materials into finished goods on the
+        factory floor. 42Q is Sanmina's cloud-based MES solution.
+      tags:
+        - Platform
+        - Manufacturing
+        - Core
+
+    - term: 42Q
+      definition: >-
+        Sanmina's cloud-based MES subsidiary and product. Provides
+        real-time factory visibility, traceability, quality management,
+        and production control across multi-plant environments.
+        Available in AWS Marketplace.
+      tags:
+        - Product
+        - Cloud
+        - MES
+
+    - term: Work Order
+      definition: >-
+        A manufacturing directive specifying what to produce, in what
+        quantity, and by when. In the 42Q MES, work orders drive
+        production scheduling and shop floor execution.
+      tags:
+        - Manufacturing
+        - Production
+        - Core
+
+    - term: Traceability
+      definition: >-
+        The ability to track materials, components, and finished products
+        through the entire manufacturing process. 42Q provides end-to-end
+        traceability including lot, serial number, and component genealogy.
+      tags:
+        - Quality
+        - Compliance
+        - Manufacturing
+
+    - term: OEM
+      definition: >-
+        Original Equipment Manufacturer — the customer for whom Sanmina
+        provides contract manufacturing services. OEMs outsource production
+        to Sanmina while maintaining design ownership.
+      tags:
+        - Business
+        - Customer
+        - Industry
+
+    - term: OCP
+      definition: >-
+        Open Compute Project — an open-source hardware initiative that
+        Sanmina participates in, providing compliant server and data
+        center infrastructure solutions.
+      tags:
+        - Hardware
+        - Data Center
+        - Open Source
+
+    - term: PCB
+      definition: >-
+        Printed Circuit Board — a core manufacturing output for Sanmina.
+        Sanmina manufactures PCBs from simple single-layer boards to
+        complex high-density interconnect and RF boards.
+      tags:
+        - Hardware
+        - Electronics
+        - Manufacturing
+
+    - term: ERP Integration
+      definition: >-
+        The connection between 42Q MES and enterprise resource planning
+        systems (SAP, Oracle) for synchronizing production orders, inventory,
+        and financial data across the enterprise.
+      tags:
+        - Integration
+        - Enterprise
+        - SAP
+
+    - term: Sanmina 4.0
+      definition: >-
+        Sanmina's systems intelligence platform for smart manufacturing,
+        combining IoT, data analytics, and AI capabilities to optimize
+        factory operations.
+      tags:
+        - Platform
+        - Industry 4.0
+        - IoT
+
+    - term: Shop Floor
+      definition: >-
+        The physical manufacturing area where production operations occur.
+        42Q MES collects real-time data from shop floor equipment and
+        operators via APIs and IoT sensors.
+      tags:
+        - Manufacturing
+        - Operations
+        - IoT

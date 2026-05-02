@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "sanmina": "https://api-evangelist.github.io/sanmina/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Sanmina": {
+      "@id": "schema:Organization",
+      "schema:name": "Sanmina Corporation",
+      "schema:description": "Global contract manufacturer and end-to-end manufacturing solutions provider"
+    },
+
+    "ManufacturingExecutionSystem": {
+      "@id": "sanmina:MES",
+      "@type": "schema:SoftwareApplication",
+      "schema:description": "System that tracks and controls manufacturing operations"
+    },
+
+    "WorkOrder": {
+      "@id": "sanmina:WorkOrder",
+      "@type": "schema:Order",
+      "schema:description": "Manufacturing directive specifying production requirements"
+    },
+
+    "ProductionRun": {
+      "@id": "sanmina:ProductionRun",
+      "@type": "schema:Event",
+      "schema:description": "An instance of manufacturing execution for a specific work order"
+    },
+
+    "TraceabilityRecord": {
+      "@id": "sanmina:TraceabilityRecord",
+      "@type": "schema:ItemList",
+      "schema:description": "Complete genealogy of materials and components in a manufactured product"
+    },
+
+    "QualityEvent": {
+      "@id": "sanmina:QualityEvent",
+      "@type": "schema:Event",
+      "schema:description": "A quality inspection, test, or non-conformance event in manufacturing"
+    },
+
+    "42QMes": {
+      "@id": "sanmina:42Q",
+      "@type": "schema:SoftwareApplication",
+      "schema:name": "42Q",
+      "schema:description": "Sanmina's cloud-based Manufacturing Execution System"
+    },
+
+    "workOrderId": {
+      "@id": "schema:identifier",
+      "@type": "xsd:string"
+    },
+
+    "serialNumber": {
+      "@id": "schema:serialNumber",
+      "@type": "xsd:string"
+    },
+
+    "lotNumber": {
+      "@id": "sanmina:lotNumber",
+      "@type": "xsd:string"
+    },
+
+    "plant": {
+      "@id": "schema:location",
+      "@type": "schema:Place"
+    }
+  }
+}
