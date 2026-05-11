@@ -68,6 +68,14 @@ common:
     url: vocabulary/sanmina-vocabulary.yml
   - type: JSONLD
     url: json-ld/sanmina-context.jsonld
+  - type: Integrations
+    url: https://www.sanmina.com/partners
+integrations:
+  - name: Partner Programs
+  - name: Supplier Requirements
+  - name: Global Security
+  - name: Supplier Engagement
+  - name: Patent Licensing
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
