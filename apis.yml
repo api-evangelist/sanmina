@@ -52,6 +52,8 @@ apis:
         url: https://support.42-q.com/
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sanmina
   - type: Website
     url: https://www.sanmina.com
   - type: Website
