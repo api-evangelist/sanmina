@@ -53,6 +53,8 @@ apis:
         url: https://support.42-q.com/
 
 common:
+  - type: DomainSecurity
+    url: security/sanmina-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/sanmina
   - type: Website
@@ -73,6 +75,8 @@ common:
     url: json-ld/sanmina-context.jsonld
   - type: Integrations
     url: https://www.sanmina.com/partners
+  - url: https://www.sanmina.com/feed/
+    type: Blog
 integrations:
   - name: Partner Programs
   - name: Supplier Requirements
