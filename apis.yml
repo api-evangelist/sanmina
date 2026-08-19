@@ -36,7 +36,7 @@ modified: '2026-05-02'
 x-profiled: '2026-05'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/sanmina/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: sanmina:sanmina-42q-mes-api
     name: 42Q MES API
