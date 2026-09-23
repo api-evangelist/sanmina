@@ -1,7 +1,9 @@
 ---
 title: Dexterity and Sanmina Deepen Partnership to Scale Mech ...
 url: https://dexterity.ai/blog/dexterity-and-sanmina-deepen-partnership-to-scale-mech-superhumanoids
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Sanmina" press release artificial intelligence'
 position: 3
 source: serpapi-google
