@@ -76,6 +76,12 @@ apis:
         url: https://support.42-q.com/
 
 common:
+  - type: Plans
+    url: plans/sanmina-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/sanmina-rate-limits.yml
+  - type: FinOps
+    url: finops/sanmina-finops.yml
   - type: DomainSecurity
     url: security/sanmina-domain-security.yml
   - type: LinkedIn
