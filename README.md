@@ -64,29 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sanmina Corporation is a global contract manufacturer and leading provider of end-to-end design, manufacturing, logistics, and repair solutions for OEMs across defense, industrial, medical, communications, and computing markets. Through its 42Q subsidiary, Sanmina offers a cloud-based Manufacturing Execution System (MES) with APIs for integrating with ERP, PLM, WMS, and other enterprise systems.
+Sanmina Corporation is a global contract manufacturer and leading provider of end-to-end design, manufacturing, logistics, and repair solutions for OEMs across defense, industrial, medical, communications, and computing markets. Through its 42Q subsidiary, Sanmina offers a cloud-based Manufacturing Execution System (MES) with APIs for integrating with ERP, PLM, WMS, and other enterprise systems. Sanmina's 42Q MES provides real-time factory visibility, traceability, quality management, and production control across globally distributed manufacturing facilities.
 
-## APIs
+**Areas:** Manufacturing · Contract Manufacturing · MES · Supply Chain · Industrial · Enterprise · Fortune 500
 
-### 42Q MES API
-The 42Q Manufacturing Execution System API provides programmatic integration for enterprise system connectivity including ERP (SAP, Oracle), PLM, WMS, and custom applications. Enables work order management, production tracking, quality management, traceability, and real-time multi-plant visibility.
+## Sanmina on APIs.io
 
+Everything profiled for Sanmina is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sanmina/](https://apis.io/providers/sanmina/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [42Q MES API](https://apis.io/apis/sanmina/sanmina-42q-mes-api/) — The 42Q Manufacturing Execution System API provides programmatic integration with Sanmina's cloud-based MES platform. The API enables enterprise system…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sanmina Context](https://apis.io/jsonld/sanmina/sanmina-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Sanmina Vocabulary](https://apis.io/vocabularies/sanmina/sanmina-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sanmina Domain Security](https://apis.io/security/sanmina/sanmina-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sanmina Plans Pricing](https://apis.io/plans/sanmina/sanmina-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sanmina Rate Limits](https://apis.io/rate-limits/sanmina/sanmina-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Sanmina Finops](https://apis.io/finops/sanmina/sanmina-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sanmina.com)
 - [Documentation](https://www.42-q.com/mes-products/)
-- [Support Portal](https://support.42-q.com/)
+- [Support](https://support.42-q.com/)
+- [Blog](https://www.sanmina.com/feed/)
 
-## Properties
+## API Evangelist rating
 
-| Type | URL |
-|------|-----|
-| Website | https://www.sanmina.com |
-| 42Q Website | https://www.42-q.com |
-| Documentation | https://www.42-q.com/mes-products/ |
-| Support | https://support.42-q.com/ |
-| Case Studies | https://www.sanmina.com/insights/case-studies/ |
+**Kin Score 15.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Artifacts
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 10.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 7.9 |
 
-| Artifact | Description |
-|----------|-------------|
-| [Vocabulary](vocabulary/sanmina-vocabulary.yml) | Manufacturing and MES domain vocabulary |
-| [JSON-LD Context](json-ld/sanmina-context.jsonld) | Linked data context for Sanmina manufacturing concepts |
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sanmina/](https://apis.io/providers/sanmina/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sanmina: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sanmina/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
